@@ -2,31 +2,31 @@
   {
     "nombre": "Bill Mahoney",
     "cargo": "Product Owner",
-    "foto": "/src/img/bill_mahoney.png"
+    "foto": "/img/bill_mahoney.png"
   },
   {
     "nombre": "Saba Cabrera",
     "cargo": "Art Director",
-    "foto": "/src/img/saba_cabrera.png"
+    "foto": "/img/saba_cabrera.png"
   },
   {
     "nombre": "Shae Le",
     "cargo": "Tech Lead",
-    "foto": "/src/img/shae_le.png"
+    "foto": "/img/shae_le.png"
   },
   {
     "nombre": "Skylah Lu",
     "cargo": "UX Designer",
-    "foto": "/src/img/skylah_lu.png"
+    "foto": "/img/skylah_lu.png"
   },
   {
     "nombre": "Griff Richards",
     "cargo": "Developer",
-    "foto": "/src/img/griff_richards.png"
+    "foto": "/img/griff_richards.png"
   },
   {
     "nombre": "Stan John",
     "cargo": "Developer",
-    "foto": "/src/img/stan_john.png"
+    "foto": "/img/stan_john.png"
   }
 ]
