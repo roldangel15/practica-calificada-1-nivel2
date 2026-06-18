@@ -1,10 +1,10 @@
 
 import React, { useState, useEffect } from 'react';
 import Header from './componentes/Header';
-import BotonDark from './componentes/BotonDark';
-import ProfileCard from './componentes/ProfileCard'; 
+import ThemeToggle from './componentes/ThemeToggle';
+import ProfileCard from './componentes/ProfileCard'; // Ajusta la ruta de tu componente
 import Footer from './componentes/Footer';
-import teamData from './data/team.json'; 
+import teamData from './data/team.json'; // Ajusta la ruta de tu JSON
 
 const App = () => {
 
@@ -18,7 +18,7 @@ const App = () => {
     }
   }, [isDarkMode]);
 
-  const botonDark = () => setIsDarkMode(!isDarkMode);
+  const toggleTheme = () => setIsDarkMode(!isDarkMode);
 
 
   return (
@@ -27,7 +27,7 @@ const App = () => {
     <div className="container mx-auto px-6 md:px-12 lg:px-20 py-8 md:py-12 max-w-7xl">
         
         <div className="flex justify-end mb-8">
-          <BotonDark isDarkMode={isDarkMode} toggleTheme={toggleTheme} />
+          <ThemeToggle isDarkMode={isDarkMode} toggleTheme={toggleTheme} />
         </div>
 
         <Header/>
