@@ -1,10 +1,9 @@
-
 import React, { useState, useEffect } from 'react';
 import Header from './componentes/Header';
 import BotonDark from './componentes/BotonDark';
-import ProfileCard from './componentes/ProfileCard'; // Ajusta la ruta de tu componente
+import ProfileCard from './componentes/ProfileCard'; 
 import Footer from './componentes/Footer';
-import teamData from './data/team.json'; // Ajusta la ruta de tu JSON
+import teamData from './data/team.json';
 
 const App = () => {
 
@@ -45,7 +44,7 @@ const App = () => {
 
                 return (
                   <div
-                    key={miembro.id || index}
+                    key={index}
                     className={`transition-transform duration-300 ease-in-out
                       ${esCol2Movil ? 'translate-y-[calc(100%/9)]' : 'translate-y-0'}
                       ${esCol2Desktop ? 'md:translate-y-[calc(100%/9)]' : 'md:translate-y-0'}
