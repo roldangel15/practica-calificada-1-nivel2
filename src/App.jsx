@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
 import Header from './componentes/Header';
-import ThemeToggle from './componentes/ThemeToggle';
+import BotonDark from './componentes/BotonDark';
 import ProfileCard from './componentes/ProfileCard'; 
 import Footer from './componentes/Footer';
 import teamData from './data/team.json'; 
@@ -18,7 +18,7 @@ const App = () => {
     }
   }, [isDarkMode]);
 
-  const toggleTheme = () => setIsDarkMode(!isDarkMode);
+  const botonDark = () => setIsDarkMode(!isDarkMode);
 
 
   return (
@@ -27,7 +27,7 @@ const App = () => {
     <div className="container mx-auto px-6 md:px-12 lg:px-20 py-8 md:py-12 max-w-7xl">
         
         <div className="flex justify-end mb-8">
-          <ThemeToggle isDarkMode={isDarkMode} toggleTheme={toggleTheme} />
+          <BotonDark isDarkMode={isDarkMode} toggleTheme={toggleTheme} />
         </div>
 
         <Header/>

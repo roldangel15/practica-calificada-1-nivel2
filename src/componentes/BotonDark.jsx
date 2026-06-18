@@ -1,9 +1,9 @@
 import React from 'react';
 
-const ThemeToggle = ({ isDarkMode, toggleTheme }) => {
+const BotonDark = ({ isDarkMode, toggleTheme }) => {
   return (
     <button
-      onClick={toggleTheme}
+      onClick={botonDark}
       className={`p-3 rounded-full transition-all duration-300 hover:scale-110 focus:outline-none focus:ring-2 
         focus:ring-offset-2 text-slate-700 dark:text-yellow-400 hover:bg-gray-100 dark:hover:bg-slate-800 focus:ring-slate-700 dark:focus:ring-yellow-400 `}
       
@@ -44,4 +44,4 @@ const ThemeToggle = ({ isDarkMode, toggleTheme }) => {
   );
 };
 
-export default ThemeToggle;
+export default BotonDark;
