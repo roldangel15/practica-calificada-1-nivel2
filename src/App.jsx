@@ -1,10 +1,10 @@
 
 import React, { useState, useEffect } from 'react';
-import Header from './Header';
-import ThemeToggle from './ThemeToggle';
-import ProfileCard from './ProfileCard'; // Ajusta la ruta de tu componente
-import Footer from './Footer';
-import teamData from './data/team.json'; // Ajusta la ruta de tu JSON
+import Header from './componentes/Header';
+import ThemeToggle from './componentes/ThemeToggle';
+import ProfileCard from './componentes/ProfileCard'; 
+import Footer from './componentes/Footer';
+import teamData from './data/team.json'; 
 
 const App = () => {
 
